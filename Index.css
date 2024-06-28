@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ /*styling for body*/
+    background-color: #D84797;
+    text-align: center;
+}
+h1{/*styling for h1*/
+    color: #3ABEFF;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+}
+.hide{/*msg connainer hidden*/
+    display: none;
+}
+p{/*stying for paragarph*/
+    color: #3ABEFF;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+}
+.container{
+    height: 400px;
+    /* background-color: #26FFE6; */
+    /* margin-top: 20px; */
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+#game{/*styling to make 3 box in one row*/
+    /* display: flex; */
+    height: 330px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{/*styling for buttons*/
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;    
+    color: #3ABEFF;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 60px;
+    font-style: normal;
+    border: none;
+
+}
+
+button:hover {/*onmouse hover transition*/
+    transform: translateY(-4px);
+    box-shadow: 0 0 17px #3ABEFF;
+}
+
+.reset_btn{/*stying for reset btn*/
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #3ABEFF;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    border: none;
+    font-style: normal;
+    font-weight: 50;
+} 
+
+.new_btn{/*stying for new gameplay btn*/
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #3ABEFF;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    border: none;
+    font-style: normal;
+    font-weight: 50;
+}

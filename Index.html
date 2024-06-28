@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="Index.css">
+    <!--Font styles link from google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Oswald:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="msg_container hide">
+        <p class="win">Winner</p>
+        <button class="new_btn" onclick="newgame()">New Game</button>
+    </div>
+    <main>
+        <h1>Tic-Tac-Toe</h1>
+        <div class="container">
+            <div id="game">
+                <!--creating 9 box-->
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+            <!---->
+        </div>
+        <button class="reset_btn" onclick="resetgame()">Reset Game</button>
+    </main>
+    <script src="App.js"></script>
+
+</body>
+</html>
